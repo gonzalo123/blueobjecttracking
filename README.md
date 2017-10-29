@@ -6,13 +6,13 @@ Opencv is an amazing Open Source Computer Vision Library. Today We're going to h
 
 The idea is simple. We'll create a mask. Our mask is a black and white image where each blue pixel will turn into a white one and the rest of pixels will be black.
 
-Original frame
+* Original frame:
 ![Original](imgs/original.png)
 
-masked frame
+* masked one:
 ![Mask](imgs/mask.png)
 
-now we only need put a bounding rectangle around the blue object.
+Now we only need put a bounding rectangle around the blue object.
 
 ```python
 import cv2
